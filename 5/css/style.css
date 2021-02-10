@@ -1,0 +1,296 @@
+/* Variables */
+
+:root {
+  --basic-light-grey: #888888;
+  --basic-blue: #EEEEEE;
+  --white: #FFFFFF;
+
+  /* button */
+
+  --red: #FB565A;
+  --red-hover: #E74246;
+  --red-focus:#D7373B;
+  --green: #00CA74;
+  --green-hover: #00BC6C;
+  --green-focus: #00AA62;
+  --yellow: #EFC849;
+  --yellow-hover: #EAB534;
+  --yellow-focus: #E5A722;
+  --dark-grey: #4D4D4D;
+
+  /* text */
+
+  --text-black: #000000;
+  --text-grey: #283136;
+  --text-popup: #666666;
+  --text-text-social: #444444;
+
+  /* form */
+
+  --form-grey: #D7DCDE;
+  --form-hover: #B4B9BB;
+
+}
+
+/* Global */
+
+.page-body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboco", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--text-grey);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+.main-header {
+  background-color: var(--basic-blue);
+}
+
+/* Navigation*/
+
+.main-navigation {
+  line-height: 30px;
+  color: var(--text-black);
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.basket a {
+  color: (var var(--text-black));
+  text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.basket a:hover {
+  color: var(--red) ;
+}
+
+.site-navigation a:focus,
+.basket a:focus {
+  color: var(--text-black);
+  opacity: 0.3;
+}
+
+.site-navigation a:active,
+.basket a:active {
+  border-bottom: solid 1px var(--red);
+}
+
+/* Slider */
+
+.slider {
+  background-color: var(--basic-blue);
+}
+
+.slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: var(--text-black);
+}
+
+/* Work */
+
+.work-list {
+  list-style: none;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.img-red {
+  background-color: var(--red);
+}
+
+.img-green {
+  background-color: var(--green);
+}
+
+.img-yellow {
+  background-color: var(--yellows);
+}
+
+/* About-us */
+
+.about-us-promo {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: var(--text-black);
+}
+
+.heading-list {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.img-grey {
+  background-color: var(--basic-light-grey);
+}
+
+.after-logo {
+  font-weight: 700;
+  color: var(--text-black);
+}
+
+th {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+sup {
+  font-size: 26px;
+}
+
+td {
+  line-height: 18px;
+}
+
+/* Clients */
+
+.clients-list {
+  list-style: none;
+}
+
+/*buttton*/
+
+.button {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-red,
+.btn-order1  {
+  background-color: var(--red);
+}
+
+.btn-red:hover,
+.btn-order1:hover {
+  background-color: var(--red-hover);
+}
+
+.btn-red:focus,
+.btn-order1:focus {
+  background-color: var(--red-focus);
+  color: var(--white);
+  opacity: 0.3;
+}
+
+.btn-order2  {
+  background-color: var(--green);
+}
+
+.btn-order2:hover {
+  background-color: var(--green-hover);
+}
+
+.btn-order2:focus {
+  background-color: var(--green-focus);
+  color: var(--white);
+  opacity: 0.3;
+}
+
+.btn-order3  {
+  background-color: var(--yellow);
+}
+
+.btn-order3:hover {
+  background-color: var(--yellow-hover);
+}
+
+.btn-order3:focus {
+  background-color: var(--yellow-focus);
+  color: var(--white);
+  opacity: 0.3;
+}
+
+/* Clients */
+
+.clients-item a {
+  opacity: 0.2;
+}
+
+.clients-item a:hover {
+  opacity: 1;
+}
+
+.clients-item a:focus {
+  opacity: 0.1;
+}
+
+/* Footer */
+
+.img-map {
+  background-color: var(--basic-light-grey);
+}
+
+footer h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: var(--text-black);
+}
+
+.contacts {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--white);
+  color: var(--text-popup);
+}
+
+.footer-socials {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--text-text-social);
+}
+
+.heading-socials {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: var(--text-black);
+}
+
+.footer-socials-list {
+  list-style: none;
+}
+
+/* Modal */
+
+.heading-modal {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: bold;
+}
+
+.write-us-item {
+  line-height: 18px;
+  font-weight: bold;
+}
+
