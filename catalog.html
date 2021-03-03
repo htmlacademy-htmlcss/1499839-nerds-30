@@ -13,7 +13,7 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body class="page-body">
-      <header class="main-header">
+      <header class="main-header container">
         <nav class="main-navigation">
             <a class="main-header-logo" href="index.html"><img src="img/logo/nerds-logo.svg" width="160" height="65" alt="Логотип студии Нёрдс"></a>
             <ul class="site-navigation">
@@ -25,8 +25,8 @@
             <div class="basket"><a class="link-basket" href="#"><img src="img/cart-icon.png" width="15" height="15" alt="">Корзина</a></div>
           </nav>
       </header>
-      <main>
-        <h1>Магазин готовых шаблонов</h1>
+      <main class="catalog-main container">
+        <h1 class="page-title">Магазин готовых шаблонов</h1>
         <section class="form-filter">
           <form method="get" action="https://echo.htmlacademy.ru/">
             <h2>Фильтр товаров</h2>
@@ -169,21 +169,25 @@
             <a class="button btn-red" href="#" >Напишите нам</a>
           </div>
         </section>
-        <section class="footer-socials">
-          <h2>Социальные сети</h2>
-            <ul class="footer-socials-list">
-              <li class="footer-socials-item">
-                <a class="socials-button" href="https://vk.com"><img src="img/vk.svg" width="26" height="15" alt="Вконтакте"></a>
-              </li>
-              <li class="footer-socials-item">
-                <a class="socials-button" href="https://facebook.com"><img src="img/fb.svg" width="12" height="22" alt="Фейсбук"></a>
-              </li>
-              <li class="footer-socials-item">
-                <a class="socials-button" href="https://instagram.com"><img src="img/inst.svg" width="21" height="21" alt="Инстаграм"></a>
-              </li>
-            </ul>
-          <p class="heading-socials,">Давайте дружить, это выгодно!</p>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+        <section class="footer-socials container">
+          <div class="socials">
+            <h2>Социальные сети</h2>
+              <ul class="footer-socials-list">
+                <li class="footer-socials-item">
+                  <a class="socials-button" href="https://vk.com"><img src="img/vk.svg" width="26" height="15" alt="Вконтакте"></a>
+                </li>
+                <li class="footer-socials-item">
+                  <a class="socials-button" href="https://facebook.com"><img src="img/fb.svg" width="12" height="22" alt="Фейсбук"></a>
+                </li>
+                <li class="footer-socials-item">
+                  <a class="socials-button" href="https://instagram.com"><img src="img/inst.svg" width="21" height="21" alt="Инстаграм"></a>
+                </li>
+              </ul>
+          </div>
+          <div class="socials">
+            <p class="heading-socials,">Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
         </section>
       </footer>
       <section class="write-us">
